@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
                     pref_edit.putString("auto_pw", PW)
                     pref_edit.putBoolean("auto_login", true)
                 }
+                
                 else{
                     pref_edit.clear()
                 }
