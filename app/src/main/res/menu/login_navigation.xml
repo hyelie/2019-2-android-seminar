@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title = "메뉴">
+        <menu>
+            <item
+                android:id="@+id/navi_wrotten"
+                android:icon="@drawable/ic_action_done"
+                android:title="작성한 글" />
+            <item
+                android:id="@+id/navi_bookmark"
+                android:icon="@drawable/ic_action_bookmark"
+                android:title="북마크" />
+            <item
+                android:id="@+id/navi_tag"
+                android:icon="@drawable/ic_action_tag"
+                android:title="태그" />
+        </menu>
+    </item>
+
+    <item android:title="기타">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navi_feedback"
+                    android:icon="@drawable/ic_action_feedback"
+                    android:title="피드백" />
+                <item
+                    android:id="@+id/navi_setting"
+                    android:icon="@drawable/ic_action_setting"
+                    android:title="설정" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
